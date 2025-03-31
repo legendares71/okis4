@@ -1,0 +1,13 @@
+<!-- Конфигурация 2: Запускает тесты, относящиеся к группе "group1" -->
+<suite name="Suite2">
+    <test name="TestGroup2">
+        <groups>
+            <run>
+                <include name="group1"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="org.example.MainTest"/>
+        </classes>
+    </test>
+</suite>
